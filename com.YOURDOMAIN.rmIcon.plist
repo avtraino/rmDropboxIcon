@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+    <dict>
+    <key>Label</key>
+        <string>com.YOURDOMAIN.rmIcon</string>
+    <key>Program</key>
+        <string>/Library/LaunchAgents/rmIcon.sh</string>
+    <key>RunAtLoad</key>
+        <true/>
+    <key>StartInterval</key>
+        <integer>600</integer>
+    <key>AbandonProcessGroup</key>
+        <true/>
+    </dict>
+</plist>
