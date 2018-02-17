@@ -27,6 +27,7 @@ Run the following commands in Terminal:
 ```
 cd /Library/LaunchAgents
 sudo chown root:wheel rmIcon.sh
+sudo chown root:wheel com.YOURDOMAIN.rmIcon.plist
 sudo chmod +x rmIcon.sh
 launchctl load -w /Library/LaunchAgents/com.YOURDOMAIN.rmIcon.plist
 ```
