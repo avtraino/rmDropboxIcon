@@ -24,13 +24,16 @@ Place `com.YOURDOMAIN.rmIcon.plist` in `/Library/LaunchAgents`. Feel free to cha
 Place `rmIcon.sh` in `/Library/LaunchAgents`. 
 
 Run the following commands in Terminal:
-```
-cd /Library/LaunchAgents
-sudo chown root:wheel rmIcon.sh
-sudo chown root:wheel com.YOURDOMAIN.rmIcon.plist
-sudo chmod +x rmIcon.sh
-launchctl load -w /Library/LaunchAgents/com.YOURDOMAIN.rmIcon.plist
-```
+
+```cd /Library/LaunchAgents```
+
+```sudo chown root:wheel rmIcon.sh```
+
+```sudo chown root:wheel com.YOURDOMAIN.rmIcon.plist```
+
+```sudo chmod +x rmIcon.sh```
+
+```launchctl load -w /Library/LaunchAgents/com.YOURDOMAIN.rmIcon.plist```
 
 The Agent should start automatically, but restart your computer for immediate effect. 
 
