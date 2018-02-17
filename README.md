@@ -1,5 +1,5 @@
 # rmIcon
-Creates a LaunchAgent that runs a shell script. The script removes the file `Icon?` from Dropbox, left by macOS. Runs on login, and every 10 minutes. 
+A shell script that removes the file `Icon?` from Dropbox, left by macOS. When used with the LaunchAgent, it runs on login  and then every 10 minutes. 
 
 
 ## The Problem
