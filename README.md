@@ -46,12 +46,12 @@ When the shell script starts, it pauses for 20 seconds, removes the unwanted `Ic
 
 ## FAQ 
 
-__1. Why touch then rm?__
+__1. Why `touch` then `rm`?__
 
-  On my machine, I can remove the file manually in the Terminal, but for some reason the script by itself doesn't recognize that the file exists when using `rm`. Using `touch` first creates an identical file, then `rm` can delete both of them. I'm honestly not sure why this happens, I just tinkered until I found something that worked, but didn't risk deleting other files. 
+  On my machine, I can `rm` the file manually in the Terminal, but for some reason the script doesn't recognize that the file exists when using `rm`. Using `touch` first creates an identical file, then `rm` can delete both of them. I'm honestly not sure why this happens, I just tinkered until I found something that worked, but didn't risk deleting other files. 
 
 
 
 ### Disclaimer:
 
-(Title) is not affiliated with or otherwise sponsored by Dropbox, Inc.
+rmIcon is not affiliated with or otherwise sponsored by Dropbox, Inc.
