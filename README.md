@@ -9,7 +9,7 @@ macOS typically creates `.Icon?` files that contain information about a file's i
 This leads to strange behavior -- 
 
 The `Icon?` file does not appear:
-*In a normal Finder window
+- In a normal Finder window
 
 The `Icon?` file appears:
 - __When viewing the Dropbox folder as a Stack in the Dock__
