@@ -19,7 +19,7 @@ The `Icon?` file appears:
 
 ## Instructions
 
-Place `com.YOURDOMAIN.rmIcon.plist` in `/Library/LaunchAgents`. Feel free to change "YOURDOMAIN" to whatever you'd like (and the string within the file). 
+Place `com.YOURDOMAIN.rmIcon.plist` in `/Library/LaunchAgents`. Feel free to change "YOURDOMAIN" to whatever you'd like (also change the string within the file). 
 
 Place `rmIcon.sh` in `/Library/LaunchAgents`. 
 
