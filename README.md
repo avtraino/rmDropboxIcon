@@ -12,9 +12,9 @@ The `Icon?` file does not appear:
 *In a normal Finder window
 
 The `Icon?` file appears:
-  -__When viewing the Dropbox folder as a Stack in the Dock__
-  -In the terminal (ls output)
-  -In a Finder window showing hidden files
+- __When viewing the Dropbox folder as a Stack in the Dock__
+- In the terminal (ls output)
+- In a Finder window showing hidden files
 
 
 ## Instructions
