@@ -6,15 +6,17 @@ A shell script that removes the file `Icon?` from Dropbox, left by macOS. When u
 
 macOS typically creates `.Icon?` files that contain information about a file's icon. This is typically a dot file (hidden), but sometimes Dropbox doesn't handle them properly. The result is a hidden file `Icon?` (without the dot). 
 
-This leads to __strange behavior*__
+Rightfully,  
 
 The `Icon?` file does not appear:
 - In a normal Finder window
 
 The `Icon?` file appears:
-- __When viewing the Dropbox folder as a Stack in the Dock*__
 - In the terminal (ls output)
 - In a Finder window showing hidden files
+
+__But strangely, The `Icon?` file also appears:__ 
+- __When viewing the Dropbox folder as a Stack in the Dock__
 
 
 ## Instructions
