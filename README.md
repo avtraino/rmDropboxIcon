@@ -11,11 +11,11 @@ Rightfully,
 The `Icon?` file does not appear:
 - In a normal Finder window
 
-The `Icon?` file appears:
-- In the terminal (ls output)
+And the `Icon?` file appears:
+- In the terminal (`ls -a` output)
 - In a Finder window showing hidden files
 
-__But strangely, The `Icon?` file also appears:__ 
+__But, strangely, The `Icon?` file also appears:__ 
 - __When viewing the Dropbox folder as a Stack in the Dock__
 
 
