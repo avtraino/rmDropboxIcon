@@ -4,7 +4,7 @@ A shell script that removes the file `Icon?` from Dropbox, left by macOS. When u
 
 ## The Problem
 
-macOS typically creates `.Icon?` files that contain information about a file's icon. This is typically a dot file (hidden), but sometimes Dropbox doesn't handle them properly. The result is a hidden file `Icon?` (without the dot). 
+When you change a folder's icon, macOS creates a `.Icon?` file that contains that information. This should be a dot file (hidden), but sometimes Dropbox doesn't handle them properly. The result is an `Icon?` file (hidden flag enabled, but without the dot). 
 
 Rightfully,  
 
@@ -18,6 +18,7 @@ And the `Icon?` file appears:
 __But, strangely, The `Icon?` file also appears:__ 
 - __When viewing the Dropbox folder as a Stack in the Dock__
 
+This is what I aimed to fix.
 
 ## Instructions
 
@@ -46,7 +47,7 @@ The LaunchAgent loads when a user logs in.
 
 `launchd` runs the shell script immediately when loaded, then once every 10 minutes.
 
-When the shell script starts, it pauses for 20 seconds, removes the unwanted `Icon?` file. 
+When the shell script starts, it pauses for 20 seconds then removes the unwanted `Icon?` file. 
 
 
 ## FAQ 
