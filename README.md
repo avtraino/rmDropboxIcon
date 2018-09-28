@@ -11,7 +11,7 @@ Rightfully,
 The `Icon?` file does not appear:
 - In a normal Finder window
 
-And the `Icon?` file appears:
+And the `Icon?` file does appear:
 - In the terminal (`ls -a` output)
 - In a Finder window showing hidden files
 
