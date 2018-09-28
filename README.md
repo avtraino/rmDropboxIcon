@@ -1,5 +1,5 @@
 # rmIcon
-A shell script that removes the file `Icon?` from Dropbox, left by macOS. When used with the LaunchAgent, it runs on login  and then every 10 minutes. 
+A shell script that removes the file `Icon?` file from Dropbox, created by macOS and corrupted by Dropbox. When used with the LaunchAgent, it runs on login  and then every 10 minutes. 
 
 
 ## The Problem
