@@ -15,7 +15,7 @@ And the `Icon?` file does appear:
 - In the terminal (`ls -a` output)
 - In a Finder window showing hidden files
 
-__But, strangely, The `Icon?` file also appears:__ 
+__But, strangely, The `Icon?` file does appear (wrongfully):__ 
 - __When viewing the Dropbox folder as a Stack in the Dock__
 
 This is what I aimed to fix.
