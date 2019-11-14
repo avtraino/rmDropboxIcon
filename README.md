@@ -54,7 +54,7 @@ When the shell script starts, it pauses for 20 seconds then removes the unwanted
 
 __1. Why `touch` then `rm`?__
 
-  On my machine, I can `rm` the file manually in the Terminal, but for some reason the script doesn't recognize that the file exists when using `rm`. Using `touch` first creates an identical file, then `rm` can delete both of them. I'm honestly not sure why this happens, I just tinkered until I found something that worked but didn't risk deleting other files. 
+  _On my machine_, I can `rm` the file manually in the Terminal, but for some reason the script doesn't recognize that the file exists when using `rm`. Using `touch` first creates an identical file, then `rm` can delete both of them. I'm honestly not sure why this happens, I just tinkered until I found something that worked but didn't risk deleting other files. 
 
 
 
